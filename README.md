@@ -6,7 +6,7 @@
 ```env
 PUBLIC_KEY = ""
 PRIVATE_KEY = ""
-FUNDER_PUBLIC_KEY = "" # can be same as PUBLIC_KEY
+FUNDER_PUBLIC_KEY = "" # (can be same as PUBLIC_KEY)
 POLYGON_RPC = "" # (https://)
 POLYGON_WSS = "" # (wss://)
 ```
@@ -48,7 +48,7 @@ RETRY_COUNT = 5 # failed orders, no liq.
 ```env
 RUN_BACKTEST_URL = true
 # Settings
-BACKTEST_BALANCE = 100 # demo balance
+BACKTEST_BALANCE = 100 # (demo balance)
 BACKTEST_LIMIT = 100 # (how much load trades)
 USE_YOUR_AMOUNT_BACKTEST = true # (value from fixed or auto)
 USE_WORSE_ENTRY = 0 # (simulate worse entry price)

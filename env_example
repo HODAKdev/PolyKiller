@@ -1,0 +1,73 @@
+# CONFIGURATION FILE
+
+# WALLETS -----------------------------------------------------------------
+# Trader public key
+WALLET_TO_COPY = "0x..." # only one address, only for backtest
+WALLETS_TO_COPY = "0x..., 0x..., 0x..." # only for copy trading
+# Your public and private key
+PUBLIC_KEY = ""
+PRIVATE_KEY = ""
+# Your funder key, can be same as public key
+FUNDER_PUBLIC_KEY = ""
+# -------------------------------------------------------------------------
+
+# ENDPOINTS ---------------------------------------------------------------
+# alchemy, infura, ... (https://, wss://)
+POLYGON_RPC = ""
+POLYGON_WSS = ""
+# -------------------------------------------------------------------------
+
+# AMOUNT ------------------------------------------------------------------
+MODE = "FIXED" # FIXED or AUTO, apply also for backtest
+FIXED = 1.0 # min. 1.0 usdc for market order, apply also for backtest
+
+# AUTO
+YOUR_MIN = 1.0 # min. 1.0 usdc for market order, apply also for backtest, (0.01)
+YOUR_MAX = 2.0 # usdc, apply also for backtest
+TRADER_MIN = 10.0 # min. 1.0 usdc for market order, apply also for backtest, (0.01)
+TRADER_MAX = 100.0 # usdc, enable RUN_BACKTEST_URL to get max value, apply also for backtest
+# -------------------------------------------------------------------------
+
+# GENERAL -----------------------------------------------------------------
+ENABLE_TRADING = true # enable real trading <--- !!!
+ONLY_ONE_ORDER = false # test order, check trader profit and your profit
+MAX_SLIPPAGE = 0.01
+ENABLE_COPY_TRADE = true
+ENABLE_BTC = true # apply also for backtest
+ENABLE_ETH = true # apply also for backtest
+ENABLE_SOL = true # apply also for backtest
+ENABLE_XRP = true # apply also for backtest
+ENABLE_DOGE = true # apply also for backtest
+ENABLE_OTHER_MARKETS = true # apply also for backtest
+MIN_TRADER_AMOUNT = 0.01 # ignore 0.10 usdc, 0.50 usdc, ... trades, apply also for backtest
+MAX_DUPLICATE_POSITIONS_TOKEN_ID = 1 # apply only for same token ids, apply also for backtest, order spam fix
+MAX_DUPLICATE_POSITIONS_SLUG = 1 # apply only for same slug, apply also for backtest, order spam fix
+BLOCK_SELL_POSITIONS = false # apply also for backtest
+USE_LIMIT_ORDERS = false # less than 1 usdc
+ALLOWED_HOURS=
+RETRY_COUNT = 5 # failed orders, liq.
+# -------------------------------------------------------------------------
+
+# ALLOWED_HOURS can be 9, 11, 12, 13, 20, 21
+
+# BACKTEST ----------------------------------------------------------------
+RUN_BACKTEST_URL = false
+RUN_BACKTEST_FILE = false
+BACKTEST_BALANCE = 100 # demo account balance
+BACKTEST_LIMIT = 1000 # how much load trades from new to old
+USE_YOUR_AMOUNT_BACKTEST = true
+USE_WORSE_ENTRY = 0 # 0 to off, put stress test to backtest, # 10
+USE_WORSE_PNL = 0 # 0 to off, put stress test to backtest, # 35, 15, 20
+FILTER_TRADES_BY_TITLE = "" # April 14
+FILTER_TRADES_BY_YOUR_TRADES = false
+AUTO_FIND_BY_LEADBOARD = false # find good address
+LEADBOARD_CATEGORY = "OVERALL" # OVERALL, POLITICS, SPORTS, CRYPTO, CULTURE, MENTIONS, WEATHER, ECONOMICS, TECH, FINANCE
+LEADBOARD_TIME_PERIOD = "MONTH" # DAY, WEEK, MONTH, ALL
+LEADBOARD_LIMIT = 100
+SKIP_NOT_PROFIT_WALLETS = true
+# -------------------------------------------------------------------------
+
+# REDEEM ------------------------------------------------------------------
+REDEEM_POSITIONS = true # redeem and close positions after market resolution
+REDEEM_COOLDOWN = 5 # check closed positions after some minutes
+# -------------------------------------------------------------------------

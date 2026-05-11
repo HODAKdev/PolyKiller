@@ -18,16 +18,16 @@ POLYGON_WSS = "" # (wss://)
 
 ## To run copy trading
 ```env
-ENABLE_TRADING = true # enable real trading!
-ONLY_ONE_ORDER = false # test only.
-ENABLE_COPY_TRADE = true # demo trading.
+ENABLE_TRADING = true # (enable real trading!)
+ONLY_ONE_ORDER = false # (test only)
+ENABLE_COPY_TRADE = true # (demo trading)
 # Settings
 MODE = "FIXED" # FIXED or AUTO
-FIXED = 1.0 # min. 1.0 usdc
-YOUR_MIN = 1.0 # min. 1.0 usdc
-YOUR_MAX = 2.0 # usdc
+FIXED = 1.0 # (min. 1.0 usdc)
+YOUR_MIN = 1.0 # (min. 1.0 usdc)
+YOUR_MAX = 2.0 # (usdc)
 TRADER_MIN = 10.0 # min. 1.0 usdc
-TRADER_MAX = 100.0 # usdc, enable RUN_BACKTEST_URL to get max value
+TRADER_MAX = 100.0 # (usdc, enable RUN_BACKTEST_URL to get max value)
 MAX_SLIPPAGE = 0.01
 ENABLE_BTC = true
 ENABLE_ETH = true
@@ -38,10 +38,10 @@ ENABLE_OTHER_MARKETS = true
 MIN_TRADER_AMOUNT = 0.01
 MAX_DUPLICATE_POSITIONS_TOKEN_ID = 1 (fix spam, 1, 2 or 3 is ok)
 MAX_DUPLICATE_POSITIONS_SLUG = 1 (fix spam, 1, 2 or 3 is ok)
-BLOCK_SELL_POSITIONS = false
-USE_LIMIT_ORDERS = false
+BLOCK_SELL_POSITIONS = false (true or false)
+USE_LIMIT_ORDERS = false (true or false)
 ALLOWED_HOURS= # (empty or 9, 11, 12, 13, 20, 21, ...)
-RETRY_COUNT = 5 # failed orders, no liq.
+RETRY_COUNT = 5 # (failed orders, no liq.)
 ```
 ![copy_trading_polymarket](copy_trading.png)
 ## To run backtest

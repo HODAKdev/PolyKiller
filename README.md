@@ -49,10 +49,10 @@ RETRY_COUNT = 5 # failed orders, no liq.
 RUN_BACKTEST_URL = true
 # Settings
 BACKTEST_BALANCE = 100 # demo balance
-BACKTEST_LIMIT = 100 (how much load trades)
-USE_YOUR_AMOUNT_BACKTEST = true (value from fixed or auto)
-USE_WORSE_ENTRY = 0 (simulate worse entry price)
-USE_WORSE_PNL = 0 (simulate worse pnl)
+BACKTEST_LIMIT = 100 # (how much load trades)
+USE_YOUR_AMOUNT_BACKTEST = true # (value from fixed or auto)
+USE_WORSE_ENTRY = 0 # (simulate worse entry price)
+USE_WORSE_PNL = 0 # (simulate worse pnl)
 ```
 ![copy_trading_polymarket](backtest.png)
 ![copy_trading_polymarket](backtest_plot.png)

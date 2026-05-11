@@ -22,11 +22,11 @@ ENABLE_TRADING = true # (enable real trading!)
 ONLY_ONE_ORDER = false # (test only)
 ENABLE_COPY_TRADE = true # (demo trading)
 # Settings
-MODE = "FIXED" # FIXED or AUTO
+MODE = "FIXED" # (FIXED or AUTO)
 FIXED = 1.0 # (min. 1.0 usdc)
 YOUR_MIN = 1.0 # (min. 1.0 usdc)
 YOUR_MAX = 2.0 # (usdc)
-TRADER_MIN = 10.0 # min. 1.0 usdc
+TRADER_MIN = 10.0 # (min. 1.0 usdc)
 TRADER_MAX = 100.0 # (usdc, enable RUN_BACKTEST_URL to get max value)
 MAX_SLIPPAGE = 0.01
 ENABLE_BTC = true

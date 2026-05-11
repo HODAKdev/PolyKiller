@@ -58,7 +58,7 @@ USE_WORSE_PNL = 0 (simulate worse pnl)
 ![copy_trading_polymarket](backtest_plot.png)
 ## To find good leaders
 ```env
-RUN_BACKTEST_URL = true (true, false)
+RUN_BACKTEST_URL = true # (true, false)
 # Settings
 AUTO_FIND_BY_LEADBOARD = true # (true, false)
 LEADBOARD_CATEGORY = "OVERALL" # (OVERALL, POLITICS, SPORTS, CRYPTO, CULTURE, MENTIONS, WEATHER, ECONOMICS, TECH, FINANCE)

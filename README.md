@@ -1,6 +1,8 @@
 # PolyKiller
 ## Polymarket copy trading bot faster than polygun.
-1. Modify env_example file 
+1. Create venv
+2. pip install -r requirements.txt
+3. Modify env_example file 
 ```env
 PUBLIC_KEY = ""
 PRIVATE_KEY = ""
@@ -10,9 +12,9 @@ POLYGON_WSS = "" # (wss://)
 ```
 
 
-3. Rename env_example to .env
-4. Run set_allowances.py
-5. Run polykiller.py
+4. Rename env_example to .env
+5. Run set_allowances.py
+6. Run polykiller.py
 
 ## To run copy trading
 ```env
@@ -41,7 +43,7 @@ USE_LIMIT_ORDERS = false
 ALLOWED_HOURS= # (empty or 9, 11, 12, 13, 20, 21, ...)
 RETRY_COUNT = 5 # failed orders, no liq.
 ```
-
+![copy_trading_polymarket](copy_trading.png)
 ## To run backtest
 ```env
 RUN_BACKTEST_URL = true
@@ -52,7 +54,8 @@ USE_YOUR_AMOUNT_BACKTEST = true (value from fixed or auto)
 USE_WORSE_ENTRY = 0 (simulate worse entry price)
 USE_WORSE_PNL = 0 (simulate worse pnl)
 ```
-
+![copy_trading_polymarket](backtest.png)
+![copy_trading_polymarket](backtest_plot.png)
 ## To find good leaders
 ```env
 RUN_BACKTEST_URL = true (true, false)
@@ -63,7 +66,7 @@ LEADBOARD_TIME_PERIOD = "MONTH" # (DAY, WEEK, MONTH, ALL)
 LEADBOARD_LIMIT = (how much load wallets) 
 SKIP_NOT_PROFIT_WALLETS = true (true, false)
 ```
-
+![copy_trading_polymarket](leaders.png)
 ## Support me
 (Polygon) \
 0x1a7c2072140bbc569fc6f579db74316d39d64174

@@ -63,7 +63,7 @@ RUN_BACKTEST_URL = true # (true, false)
 AUTO_FIND_BY_LEADBOARD = true # (true, false)
 LEADBOARD_CATEGORY = "OVERALL" # (OVERALL, POLITICS, SPORTS, CRYPTO, CULTURE, MENTIONS, WEATHER, ECONOMICS, TECH, FINANCE)
 LEADBOARD_TIME_PERIOD = "MONTH" # (DAY, WEEK, MONTH, ALL)
-LEADBOARD_LIMIT = # (how much load wallets) 
+LEADBOARD_LIMIT = 100 # (how much load wallets) 
 SKIP_NOT_PROFIT_WALLETS = true # (true, false)
 ```
 ![copy_trading_polymarket](leaders.png)

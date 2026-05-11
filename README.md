@@ -36,10 +36,10 @@ ENABLE_XRP = true
 ENABLE_DOGE = true
 ENABLE_OTHER_MARKETS = true
 MIN_TRADER_AMOUNT = 0.01
-MAX_DUPLICATE_POSITIONS_TOKEN_ID = 1 (fix spam, 1, 2 or 3 is ok)
-MAX_DUPLICATE_POSITIONS_SLUG = 1 (fix spam, 1, 2 or 3 is ok)
-BLOCK_SELL_POSITIONS = false (true or false)
-USE_LIMIT_ORDERS = false (true or false)
+MAX_DUPLICATE_POSITIONS_TOKEN_ID = 1 # (fix spam, 1, 2 or 3 is ok)
+MAX_DUPLICATE_POSITIONS_SLUG = 1 # (fix spam, 1, 2 or 3 is ok)
+BLOCK_SELL_POSITIONS = false
+USE_LIMIT_ORDERS = false
 ALLOWED_HOURS= # (empty or 9, 11, 12, 13, 20, 21, ...)
 RETRY_COUNT = 5 # (failed orders, no liq.)
 ```

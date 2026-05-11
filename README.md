@@ -1,5 +1,9 @@
 # PolyKiller
 ## Polymarket copy trading bot faster than polygun.
+## Features
+* Fast copy trading
+* Backtest wallet
+* Find good leaders to copy trading
 1. Create venv
 2. pip install -r requirements.txt
 3. Modify env_example file 

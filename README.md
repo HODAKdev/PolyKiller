@@ -58,13 +58,13 @@ USE_WORSE_PNL = 0 # (simulate worse pnl)
 ![copy_trading_polymarket](backtest_plot.png)
 ## To find good leaders
 ```env
-RUN_BACKTEST_URL = true # (true, false)
+RUN_BACKTEST_URL = true
 # Settings
-AUTO_FIND_BY_LEADBOARD = true # (true, false)
+AUTO_FIND_BY_LEADBOARD = true
 LEADBOARD_CATEGORY = "OVERALL" # (OVERALL, POLITICS, SPORTS, CRYPTO, CULTURE, MENTIONS, WEATHER, ECONOMICS, TECH, FINANCE)
 LEADBOARD_TIME_PERIOD = "MONTH" # (DAY, WEEK, MONTH, ALL)
 LEADBOARD_LIMIT = 100 # (how much load wallets) 
-SKIP_NOT_PROFIT_WALLETS = true # (true, false)
+SKIP_NOT_PROFIT_WALLETS = true
 ```
 ![copy_trading_polymarket](leaders.png)
 ## Support me

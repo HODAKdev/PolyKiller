@@ -68,8 +68,10 @@ SKIP_NOT_PROFIT_WALLETS = true # (true, false)
 ```
 ![copy_trading_polymarket](leaders.png)
 ## Support me
-(Polygon) \
+(Polygon)
+```env
 0x1a7c2072140bbc569fc6f579db74316d39d64174
+```
 
 ## Warning
 Copy trading is a speculative activity and carries a high risk of financial loss, a trader's past performance does not guarantee future results. Never invest more than you can afford to lose.

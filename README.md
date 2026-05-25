@@ -1,5 +1,6 @@
 # PolyKiller
 ## Polymarket copy trading bot faster than polygun.
+Not working after v2 update, only backtest should work.
 ## Features
 * Fast copy trading
 * Backtest wallet
